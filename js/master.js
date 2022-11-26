@@ -171,7 +171,7 @@ window.onscroll = function () {
     if (window.scrollY > (skills.offsetTop + skills.offsetHeight - window.innerHeight)) {
         progress.forEach(skill => {
             skill.style.width = skill.dataset.progress;
-            console.log(skill.dataset.progress)
+            
         })
     }
 }
@@ -202,7 +202,7 @@ gallery.forEach(img => {
         let popupImage = document.createElement("img");
         popupImage.src = img.src;
         // popupImage.className("popup-image");
-        console.log(img.src)
+        
         popupBox.appendChild(popupImage);
         document.body.appendChild(popupBox);
 
