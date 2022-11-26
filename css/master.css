@@ -785,7 +785,7 @@ ul {
         width: 100%;
     }
 }
-.contact .container form input:not(input[type="submit"]),
+.contact .container form input:not([type="submit"]),
 .contact .container form textarea {
     width: 100%;
     padding: 10px;
@@ -797,7 +797,7 @@ ul {
     font-size: 14px;
     caret-color: var(--main-color);
 }
-.contact .container form input:not(input[type="submit"]):focus::placeholder,
+.contact .container form input:not([type="submit"]):focus::placeholder,
 .contact .container form textarea:focus::placeholder {
     opacity: 0;
 }
