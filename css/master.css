@@ -738,7 +738,7 @@ ul {
 /* Start Contact */
 .contact {
     padding: 50px 0;
-    background-image: url('/imgs/contact.png');
+    background-image: url('imgs/contact.png');
     background-size: cover;
     position: relative;
 }
